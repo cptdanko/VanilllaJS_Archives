@@ -1,0 +1,14 @@
+{
+  "name": "theproject",
+  "version": "1.0.0",
+  "description": "Display Pokemons ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Bhuman Soni with Shi and Joel",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.2.1"
+  }
+}
