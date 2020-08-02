@@ -1,5 +1,12 @@
 
-const URL = "https://cdn.theprojectfactory.com/pokemon/get.php";
+const URL = ""; //enter your URL to get POKEMON image data
+/*
+    JSON structure: {
+        name: '',
+        description:'',
+        pokeImg: 'imgUrl'
+    };
+*/
 
 /*
 - fetch data
