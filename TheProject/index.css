@@ -1,3 +1,64 @@
+body {
+    background-color: #f5a623;
+}
+.homeDiv {
+    margin: auto;
+    width: 675px;
+    padding: 10px;
+}
+.header {
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #434242;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.header .title {
+    margin-left:10px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .description {
+    margin-left: 60px;
+    font-style: oblique;
+    margin-bottom: 10px;
+    color: #a2a1a1;
+    font-size: 20px;
+
+}
+.pokeImages {
+    display: flex;
+    flex-direction: row;
+}
+.pokeCard {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 70%;
+    width: 40%;
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+
+}
+.pokeCard .img {
+    position: relative;
+    width: 125px;
+    height: 125px;
+
+}
+.pokeCard .subtitle {
+    color: #d8d8d8;
+}
+.pokeCard .title {
+    font-weight: bolder;
+    margin-bottom: 4px;
+    font-size: larger;
+}
+.pokeCard .description {
+    color: #a2a1a1;
+    padding: 5px;
+}
 .pokemonHome {
     display: flex;
     flex-direction: column;
